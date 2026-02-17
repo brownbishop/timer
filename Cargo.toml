@@ -1,0 +1,12 @@
+[package]
+name = "timer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iocraft = "0.7.17"
+smol = "2.0.2"
+rodio = { version = "0.19", default-features = false, features = ["mp3"] }
+humantime = "2.1"
+figlet-rs = "0.1"
+directories = "6.0"
